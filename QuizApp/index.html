@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Quiz Application</h1>
+        <div class="userDetails">
+            <div class="form"> 
+                <form action="">  
+                <label for="name">Name: </label>
+                <input type="text" placeholder="Enter the name" id="name" name="name"><br>
+            </div>
+            <div>
+                <label for="subject">Subject:</label>
+                <select name="subject" id="subject"><ul>
+                    <option value="SelectSubject">Select Subject</option>
+                   <option value="Programming">Programming</option>
+                   <option value="Science">Science</option>
+
+                </select>
+                <!-- <input type="text" placeholder="Select Subject"> -->    
+            </div>
+            <div id="quiz-container">
+                <button type="submit" id="start-btn">Start Quiz</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

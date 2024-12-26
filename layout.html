@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Layout</title>
+    <style>
+        .header{
+            height:4cm;
+            background-color: #bb0497;
+            width: 100%;
+        }
+        .headerText{
+            padding-top: 0.5cm;
+            text-align: center;
+        }
+        .navbar{
+            
+            background-color:rgb(235, 190, 227);
+            overflow: hidden;
+
+            
+        }
+        .navbar a:hover{
+            color: burlywood;
+            background-color: black;
+        }
+        .button{
+            float: left;
+            text-align: center;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 15px 20px;
+            text-decoration: none;
+        }
+        .right{
+            float: right;
+            text-align: center;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        
+        .section{
+            float: left;
+            padding-left:1%;
+            width: 20%;
+            height: 10cm;
+        }
+        .main{
+            display: flex;
+        }
+        .image{
+            height: 5cm;
+            width: 8cm;
+            display: inline;
+            background-color:rgb(235, 190, 227);
+            border: rgb(8, 8, 8);
+        }
+        
+        .article{
+            float: right;
+            width: 75%;
+            height: 10cm;
+            background-color:rgb(235, 190, 227);;
+        }
+        .footer{
+            height:3cm;
+            text-align: center;
+            background-color:#bb0497;
+            width: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+    <header  class="header">
+        <h1 class="headerText">WELCOME TO MY WEBSITE</h1>
+        <p class="headerText">A simple single-page layout</p>
+    </header>
+    </div>
+    <br>
+    <div class="navbar">
+            <a href="#" class="button">Home</a>        
+            <a href="#" class="button">Menu</a>  
+            <a href="#" class="button">About</a>
+            <a href="#" class="button">Contact</a>
+            <a href="#" class="button">Services</a>
+            <a  href="#" class="right">Profile</a>
+    </div>
+    <br>
+
+    <div class="main" >
+        <div class="section" >
+            <h2>Menu</h2><br>
+            <p>Topic 1<p><br>
+            <p>Topic 2<p><br>
+            <p>Topic 3<p><br>
+            <p>Topic 4<p><br>                                     
+        </div>
+        <div class="article"><h2>About</h2>
+        </div>     
+    </div>
+    <br>
+    <div>
+            <h2>Services</h2><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Praesentium nesciunt, reiciendis laboriosam consectetur eum maxime necessitatibus 
+                iste sit porro voluptatibus tenetur corporis ratione 
+                labore provident voluptas animi consequuntur, dolorum officiis.</p>
+                <img class="image"></img>
+                <img class="image"></img>
+                <img class="image"></img>
+                <img class="image"></img>
+
+    </div>
+    
+    <div class="footer">
+        <footer>
+            <p style="padding: .5cm;">John Doe ,123 Maple Avenue, Springfield, IL 62704,United States</p>
+            <p>&copy; 2024 My Website. All rights reserved.</p>
+            
+            
+        </footer>
+    </div>
+
+</body>
+</html>

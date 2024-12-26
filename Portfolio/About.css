@@ -1,0 +1,49 @@
+body{
+    font-family: "Trirong", serif;
+}
+.navbar{
+    border: solid black 2px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(227, 255, 248);
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+}
+
+.nav-item{
+    background-color: #012f2f;  
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: medium;
+    text-align: center;
+    flex: 1;                  
+    margin: 10px;
+}
+.Academic{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 1cm;
+    gap: 1cm;                              
+}
+.AcademicItem{
+    margin-right: 1cm;
+    margin-left: 1cm;
+    padding-left: 4px;
+    border: solid black 1px;
+    background-color:#012f2f;
+    color: white;
+    
+}
+.objective{
+    padding:0cm 2cm 0cm 1cm;
+    text-align: justify;
+    font-size: large;
+    padding-bottom: 1cm;
+}
+.Technologies{
+    padding:0cm 1cm 1cm 1cm;
+    
+}

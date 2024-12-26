@@ -1,0 +1,35 @@
+{
+    "quizzes": [
+      {
+        "subject": "Programming",
+        "questions": [
+          {
+            "question": "What does HTML stand for?",
+            "options": ["Hyper Text Markup Language", "Home Tool Markup Language", "Hyperlinks and Text Markup Language", "None of the above"],
+            "answer": 0
+          },
+          {
+            "question": "Which language is used for web apps?",
+            "options": ["PHP", "Python", "JavaScript", "All of the above"],
+            "answer": 3
+          }
+        ]
+      },
+      {
+        "subject": "Science",
+        "questions": [
+          {
+            "question": "What planet is known as the Red Planet?",
+            "options": ["Earth", "Mars", "Jupiter", "Venus"],
+            "answer": 1
+          },
+          {
+            "question": "What is the boiling point of water?",
+            "options": ["50°C", "100°C", "150°C", "200°C"],
+            "answer": 1
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    justify-items: center;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #app {
+    padding: 20px;
+    width: 500px;
+    background-color: rgb(150, 216, 239);
+    border-radius: 10px;
+  }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    list-style: none;
+    width: 150px;
+    z-index: 10;
+    border-radius: 2px;
+  }
+  
+  .dropdown-menu li a {
+    padding: 10px 15px;
+    display: block;
+    color: #fff;
+  }
+  
+  .dropdown-menu li a:hover {
+    background-color: #555;
+  }
+
+  .exam{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #quiz-container {
+    margin-top: 20px;
+  }
+  
+  .question {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .options button {
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+  }
+
+  .subject.li{
+    list-style: none;
+    display: block;
+  }
+
+  .userDetails div {
+    padding-bottom: 10px;
+  }
+
+  .userDetails div input,.userDetails div select{
+    border: none;
+    height: 25px;
+    border-radius: 10px;
+  }
+
+  
+
+
+  
+
+  

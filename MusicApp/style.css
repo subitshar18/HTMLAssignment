@@ -1,0 +1,50 @@
+.app{
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-items: center;
+}
+.heading{
+    text-shadow: 2px;
+}
+.songContainer{
+  text-align: center;
+  background-color: #1e1e1e;
+  padding: 20px 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+.controls{
+  flex: row;
+  flex-direction: row;
+}
+button {
+    background: none;
+    border: none;
+    background-color:white;
+    border-radius: 10px;
+    border: none;
+    color:black;
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  #playlist {
+    margin-top: 20px;
+    padding-right: 30px;
+  }
+  
+  #song-list li {
+   list-style: none;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+    border-bottom: 1px solid #333;
+  }
+  
+  #song-list li:hover {
+    background-color: #333;
+  }
+
+  .image{
+    width: 300px;
+  }
